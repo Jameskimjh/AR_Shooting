@@ -19,10 +19,6 @@ public class Spawn : MonoBehaviour
         StartCoroutine(WaitAndSpawn());
     }
 
-    private void Update()
-    {
-     
-    }
     
     IEnumerator WaitAndSpawn()
     {
